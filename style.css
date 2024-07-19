@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  z-index: 999;
+  transition: all 0.8s ease-in-out;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  transition: color all 0.5s;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon i {
+  color: #000000;
+  font-size: 30px;
+}
+
+.navbar-text {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-scrolled {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+}
+
+@media (max-width: 990px) {
+  nav {
+    background-color: #ffffff;
+    color: #fff;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    padding-left: 76px;
+    flex-direction: column;
+    background-color: #ffffff;
+    gap: 30px;
+    overflow: hidden;
+    height: 360px;
+  }
+
+  nav ul li a {
+    padding: 0px 30px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  #menuList {
+    transition: all 0.5s;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    padding-left: 8px;
+    flex-direction: column;
+    background-color: #ffffff;
+    gap: 30px;
+    overflow: hidden;
+    height: 360px;
+  }
+
+  nav ul li a {
+    padding: 0px 30px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  #menuList {
+    transition: all 0.5s;
+  }
+}
+
+/* 
+  ***
+  ***  ===========================================
+
+======== >   ( ' Section 1 style ' )
+
+  ***  ===========================================
+  ***
+  
+  */
+
+.row-height {
+  height: 750px !important;
+}
+
+.some-text h1 {
+  font-size: 60px;
+}
+
+@media (max-width: 767px) {
+  .some-text {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-img-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .some-text h1 {
+    font-size: 30px;
+  }
+
+  .hero-img-container {
+    align-self: center !important;
+  }
+}
+
+/* 
+  ***
+  ***  ===========================================
+
+======== >   ( ' Section 2 style ' )
+
+  ***  ===========================================
+  ***
+  
+  */
+
+.about-section {
+  padding-top: 120px;
+}
+
+@media (max-width: 767px) {
+  .about-some-text {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-some-text h1 {
+    font-size: 20px;
+  }
+}
+
+/* 
+  ***
+  ***  ===========================================
+
+======== >   ( ' Section 3 style ' )
+
+  ***  ===========================================
+  ***
+  
+*/
+
+.services-section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.service-text span{
+  font-size: 35px;
+}
+
+
+/* 
+  ***
+  ***  ===========================================
+
+======== >   ( ' Section 4 style ' )
+
+  ***  ===========================================
+  ***
+  
+*/
+
+.counter-section{
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  padding: 100px 0px;
+}
+
+
+.counter-text{
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .counter-text {
+      margin-bottom: 30px;
+  }
+}
+
+
+/* 
+  ***
+  ***  ===========================================
+
+======== >   ( ' Section 5 style ' )
+
+  ***  ===========================================
+  ***
+  
+*/
+
+.plan-section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.bottom-text a {
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+  color: #222;
+  padding: 10px 50px;
+  font-weight: 600;
+  display: inline-block;
+  display: none;
+}
+
+.plan-section .row .top-text h1{
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 140px;
+  background-color: rgba(132, 144, 255, 0.1);
+  border-radius: 100px;
+  align-items: center;
+  display: grid;
+  border: 30px solid rgba(132, 144, 255, 0.1);
+}
+
+.plan-section .row .plan-card .top-text h1:hover  {
+  border-color: rgba(255, 255, 255, 0.21);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.plan-section .row .middel-text{
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.plan-section .row .middel-text ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.plan-section .row .middel-text ul li{
+  padding: 10px 0;
+  border-top: 1px solid #eee
+}
+
+.plan-section .row .plan-card {
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  background-color: #f9f9ff;
+  padding: 40px 20px;
+}
+
+.plan-section .row .plan-card:hover  {
+  transform: scale(1.05);
+  z-index: 2;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+
+
+
+/* 
+  ***
+  ***  ===========================================
+
+======== >   ( ' Section 6 style ' )
+
+  ***  ===========================================
+  ***
+  
+*/
+
+.blog-img img{
+  width: 100%;
+}
+
+.blog-meta{
+  border-bottom: 1px solid #22222262;
+}
+
+.blog-text-bottom a{
+  text-decoration: none;
+  color: #000000;
+}
