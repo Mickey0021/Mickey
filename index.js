@@ -4,7 +4,9 @@ menuList.style.maxHeight = "0px";
 function toggleMenu() {
     if (menuList.style.maxHeight == "0px") {
         menuList.style.maxHeight = "300px";
-    } else{
+
+    } else {
+
         menuList.style.maxHeight = "0px";
     }
 }
@@ -18,7 +20,10 @@ const navbar5 = document.querySelector('.text4');
 const navbar6 = document.querySelector('.text5');
 
 window.addEventListener('scroll', () => {
-    if(window.scrollY >= 60) {
+
+
+    if (window.scrollY >= 60) {
+
         navbar.classList.add('navbar-scrolled');
         navbar1.classList.add('navbar-text');
         navbar2.classList.add('navbar-text');
@@ -26,7 +31,8 @@ window.addEventListener('scroll', () => {
         navbar4.classList.add('navbar-text');
         navbar5.classList.add('navbar-text');
         navbar6.classList.add('navbar-text');
-    } else if(window.scrollY < 60) {
+    } else if (window.scrollY < 60) {
+
         navbar.classList.remove('navbar-scrolled');
         navbar1.classList.remove('navbar-text');
         navbar2.classList.remove('navbar-text');

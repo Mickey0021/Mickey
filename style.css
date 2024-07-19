@@ -321,6 +321,12 @@ nav ul li a {
   
 */
 
+
+.blog-section{
+  padding: 80px 0px;
+}
+
+
 .blog-img img{
   width: 100%;
 }
@@ -332,4 +338,62 @@ nav ul li a {
 .blog-text-bottom a{
   text-decoration: none;
   color: #000000;
+}
+
+/* 
+  ***
+  ***  ===========================================
+
+======== >   ( ' Section 7 style ' )
+
+  ***  ===========================================
+  ***
+  
+*/
+
+.brand-section{
+  padding: 80px 0px;
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+/* 
+  ***
+  ***  ===========================================
+
+======== >   ( ' Section 8 style ' )
+
+  ***  ===========================================
+  ***
+  
+*/
+
+
+.footer-section{
+  padding: 120px 0px;
+  background-color: #04091e;
+}
+
+.footer-section h4{
+  color: #fff;
+}
+
+.footer-section p{
+  color: #777777;
+}
+
+.about-footer p span{
+  color: #8490ff;
+}
+
+.footer-section .input-group{
+  height: 50px;
+}
+
+
+.footer-section .input-group-btn{
+  background-color: #62bdfc;
+}
+
+.footer-section .btn{
+  border: none;
 }
