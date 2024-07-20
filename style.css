@@ -375,7 +375,8 @@ nav ul li a {
 
 .footer-section h4{
   color: #fff;
-  font-size: 30px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .footer-section p{
@@ -389,7 +390,6 @@ nav ul li a {
 .footer-section .input-group{
   height: 50px;
 }
-
 
 .footer-section .input-group-btn{
   background-color: #62bdfc;
