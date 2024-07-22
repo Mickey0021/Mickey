@@ -204,6 +204,7 @@ nav ul li a {
 
 .about-section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .about-some-text h1 {
@@ -485,4 +486,53 @@ nav ul li a {
 
 .footer-section .btn {
   border: none;
+}
+
+
+/* 
+  ***
+  ***  ===========================================
+
+======== >   ( ' about Section 1 style ' )
+
+  ***  ===========================================
+  ***
+  
+*/
+
+.about-section-1{
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+.about-section-1 .row{
+  height: 340px;
+}
+
+.about-section-1 .row .col-lg-12 .text-about {
+  margin-top: 140px;
+}
+
+
+
+/* 
+  ***
+  ***  ===========================================
+
+======== >   ( ' about Section 1 style ' )
+
+  ***  ===========================================
+  ***
+  
+*/
+
+.contact-section-1{
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+.contact-section-1 .row{
+  height: 340px;
+}
+
+.contact-section-1 .row .col-lg-12 .text-about {
+  margin-top: 140px;
 }
